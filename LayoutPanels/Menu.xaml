@@ -9,6 +9,10 @@
     <Grid>
         <StackPanel Margin="5" ButtonBase.Click="StackPanel_Click">
             <Button>SimpleStack</Button>
+            <Button>SimpleBorder</Button>
+            <Button>SimpleWrapPanel</Button>
+            <Button>SimpleDockPanel</Button>
+            <Button>BasicDialogBox</Button>
         </StackPanel>
     </Grid>
 </Window>

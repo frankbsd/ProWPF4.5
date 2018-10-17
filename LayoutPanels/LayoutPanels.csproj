@@ -54,9 +54,25 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="BasicDialogBox.xaml.cs">
+      <DependentUpon>BasicDialogBox.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SimpleBorder.xaml.cs">
+      <DependentUpon>SimpleBorder.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SimpleDockPanel.xaml.cs">
+      <DependentUpon>SimpleDockPanel.xaml</DependentUpon>
+    </Compile>
     <Compile Include="SimpleStack.xaml.cs">
       <DependentUpon>SimpleStack.xaml</DependentUpon>
     </Compile>
+    <Compile Include="SimpleWrapPanel.xaml.cs">
+      <DependentUpon>SimpleWrapPanel.xaml</DependentUpon>
+    </Compile>
+    <Page Include="BasicDialogBox.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Menu.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -69,7 +85,19 @@
       <DependentUpon>Menu.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="SimpleBorder.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SimpleDockPanel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="SimpleStack.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SimpleWrapPanel.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
